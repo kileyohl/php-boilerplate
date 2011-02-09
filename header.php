@@ -20,7 +20,7 @@
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/ie.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="assets/css/ie.css?v=0.1" media="screen">
 	<![endif]--> 
 	
 	<!--[if lt IE 7 ]>
@@ -31,6 +31,12 @@
  	<!-- Base Javascript -->
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js?v=0.1"></script>
+	<script>
+		jQuery(document).ready(function() { 
+	
+		});
+	</script>
+	
 	
 </head> 
 <body <?php page_id(); ?> >
