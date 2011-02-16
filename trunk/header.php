@@ -16,6 +16,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
 	
 	<link href="assets/css/reset.css" rel="stylesheet">
+	<link href="assets/css/print.css" rel="stylesheet" media="print" >
 	<link href="assets/css/style.css?v=0.1" rel="stylesheet">
 
 	<!--[if lt IE 9]>
