@@ -18,19 +18,9 @@
 	<link href="assets/css/reset.css" rel="stylesheet">
 	<link href="assets/css/print.css" rel="stylesheet" media="print" >
 	<link href="assets/css/style.css?v=0.1" rel="stylesheet">
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" type="text/css" href="assets/css/ie.css?v=0.1" media="screen">
-	<![endif]--> 
-	
-	<!--[if lt IE 7 ]>
-    <script src="assets/js/dd_belatedpng.js"></script>
-    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
-  <![endif]-->
  
  	<!-- Base Javascript -->
- 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+ 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js?v=0.1"></script>
 	<script>
 		jQuery(document).ready(function() { 
@@ -38,6 +28,18 @@
 		});
 	</script>
 	
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="assets/js/selectivizr.js"></script>
+		<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/ie.css?v=0.1" media="screen">
+	<![endif]--> 
+	
+	<!--[if lt IE 7 ]>
+    <script src="assets/js/dd_belatedpng.js"></script>
+    <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+  <![endif]-->
+
 	
 </head> 
 <body <?php page_id(); ?> >

@@ -1,0 +1,21 @@
+/*---GLOBAL---*/
+.hidden {display:none;}
+.clear {clear:both;}
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+ 
+/*---HEADER---*/
+
+
+/*---NAV---*/
+
+
+/*---CONTENT---*/
+
+
+/*---SIDEBAR---*/
+
+
+/*---FOOTER---*/
+
